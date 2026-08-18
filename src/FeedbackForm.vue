@@ -1,13 +1,6 @@
 <script setup>
 import { reactive } from 'vue'
 
-const props = defineProps({
-  defaultCourse: String,
-  defaultYear: String
-})
-
-const emit = defineEmits(['register-submitted'])
-
 const form = reactive({
   studname: '',
   studentId: '',
